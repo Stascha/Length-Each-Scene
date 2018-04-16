@@ -8,13 +8,13 @@ public class Runner
     {
         List<Character> a = new ArrayList<Character>();
 
-        // ovo je test primer:
+        // This is a test case:
         String s = "ababcbacadefegdehijhklij";
 
         for (int i=0; i<s.length(); i++)
             a.add(s.charAt(i));
 
         System.out.println((new Solution()).lengthEachScene(a));
-        System.out.println((new Solution2()).lengthEachScene2(a));
+      
     }
 }
