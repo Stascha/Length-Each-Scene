@@ -17,7 +17,7 @@ public class Solution
         // taj segment u tom trenutku vec moramo da nastavimo da uzimamo slova.
 
         // Ukoliko u nekom trenutku ustanovimo da trenutni segment ne sadrzi
-        // nijedno slovo koje se ne javlja u ostatku stringa, odmah uzmemo taj
+        // nijedno slovo koje se javlja u ostatku stringa, odmah uzmemo taj
         // segment, "odsecemo" ga, dodamo ga na resenje tj. dodamo njegovu duzinu (streak) na niz result.
 
         int[] curr = new int[26];
